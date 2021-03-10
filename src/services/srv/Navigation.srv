@@ -1,0 +1,9 @@
+#request constants
+#request fields
+
+geometry_msgs/Pose goal
+---
+#response constants
+
+#response fields
+string msg
