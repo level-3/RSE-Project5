@@ -77,7 +77,7 @@ int main(int argc, char** argv){
     
   //ROS_INFO("Pick Object started");
 
-  marker_client = n.serviceClient<services::Navigation>("add_marker");
+  marker_client = n.serviceClient<services::Navigation>("marker_server");
   goal_client = n.serviceClient<services::Navigation>("nav_goal_server");
 
 

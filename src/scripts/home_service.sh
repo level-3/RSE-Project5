@@ -1,7 +1,7 @@
-xterm -fa 'Monospace' -fs 12  -e  " roslaunch my_robot world.launch" &
+xterm -e  " roslaunch my_robot world.launch" &
 sleep 5
-xterm -fa 'Monospace' -fs 12  -e  " roslaunch my_robot amcl_demo.launch" &
+xterm -e  " roslaunch my_robot amcl_demo.launch" &
 sleep 5
-xterm -fa 'Monospace' -fs 12  -e  " roslaunch my_robot gmapping.launch" &
+xterm -e  " roslaunch my_robot gmapping.launch" &
 sleep 5
-xterm -fa 'Monospace' -fs 12  -e  " roslaunch my_robot home_service_robot.launch" 
+xterm -e  " roslaunch my_robot home_service_robot.launch" 
