@@ -8,4 +8,4 @@ Goal of this project is to  create a map of a simulated gazebo environment and a
 - **AMCL**: probabilistic localization system for a robot moving in 2D. It implements the adaptive (or KLD-sampling) Monte Carlo localization approach which uses a particle filter to track the pose of a robot against a known map. (http://wiki.ros.org/amcl)
 - **ROS Navigation Stack**: 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base. (http://wiki.ros.org/navigation). Uses Dijkstra's algorithm, which is a variant of Uniform Cost Search to plan the robots trajectory to avoid obstacles.
 
-:::image type="content" source="Screenshot.png" alt-text="Screenshot":::
+![screenshot](https://github.com/level-3/RSE-Project5/blob/master/Screenshot.png?raw=true)
