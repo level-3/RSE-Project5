@@ -1,6 +1,6 @@
 <launch>
   <!-- Map server -->
-    <arg name="map_file" default="$(find my_robot)/maps/apartment_map.yaml"/>
+    <arg name="map_file" default="$(find map)/apartment_map.yaml"/>
 
     <!--launch Map Server node-->
     <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
