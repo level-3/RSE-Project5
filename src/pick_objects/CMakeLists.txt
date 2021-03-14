@@ -209,9 +209,13 @@ include_directories(
 
 add_executable(pick_objects_node src/pick_objects.cpp)
 target_link_libraries(pick_objects_node ${catkin_LIBRARIES})
-add_dependencies(pick_objects_node ${catkin_EXPORTED_TARGETS})
 
 
 add_executable(nav_goal_server_node src/nav_goal_server.cpp)
 target_link_libraries(nav_goal_server_node ${catkin_LIBRARIES})
 add_dependencies(nav_goal_server_node ${catkin_EXPORTED_TARGETS})
+
+add_executable(autonomous_navigation_node src/autonomous_navigation.cpp)
+target_link_libraries(autonomous_navigation_node ${catkin_LIBRARIES})
+add_dependencies(autonomous_navigation_node ${catkin_EXPORTED_TARGETS})
+

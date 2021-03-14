@@ -9,7 +9,7 @@
   <node name="nav_goal_server_node" pkg="pick_objects" type="nav_goal_server_node"  output="screen"/>
        
       <!--launch pick_objects  -->
-  <node name="pick_objects_node" pkg="pick_objects" type="pick_objects_node"  output="screen"/>
+  <node name="autonomous_navigation_node" pkg="pick_objects" type="autonomous_navigation_node"  output="screen"/>
   
 
 </launch>

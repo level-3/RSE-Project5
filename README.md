@@ -9,3 +9,8 @@ Goal of this project is to  create a map of a simulated gazebo environment and a
 - **ROS Navigation Stack**: 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base. (http://wiki.ros.org/navigation). Uses Dijkstra's algorithm, which is a variant of Uniform Cost Search to plan the robots trajectory to avoid obstacles.
 
 ![screenshot](https://github.com/level-3/RSE-Project5/blob/master/Screenshot.png?raw=true)
+
+`/src/scripts/home_service.sh` Run the turtlebot simulation
+
+`/src/scripts/autonomous_navigation.sh` Run the simulation with custom skid steer robot in custom environment. Uses services to autonomously navigate and map gazebo environment previously built.
+

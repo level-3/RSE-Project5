@@ -90,7 +90,7 @@ bool add_single_marker(geometry_msgs::Point marker_pos , geometry_msgs::Quaterni
     else
     {
 
-        shape = visualization_msgs::Marker::SPHERE;
+        shape = visualization_msgs::Marker::CUBE;
         marker.scale.x = 0.5;
         marker.scale.y = 0.5;
         marker.scale.z = 0.5;
