@@ -217,4 +217,5 @@ add_dependencies(marker_server_node services_generate_messages_cpp)
 add_executable(add_markers_node src/add_markers.cpp)
 target_link_libraries(add_markers_node ${catkin_LIBRARIES})
 #add_dependencies(add_markers_node services_generate_messages_cpp)
-
+add_executable(add_markers_static_node src/add_markers_static.cpp)
+target_link_libraries(add_markers_static_node ${catkin_LIBRARIES})
